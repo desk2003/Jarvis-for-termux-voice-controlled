@@ -13,9 +13,7 @@ pkg install python -y >/dev/null 2>&1
 pkg install wget -y >/dev/null 2>&1
 pkg install ffmpeg -y >/dev/null 2>&1
 pkg install termux-api -y >/dev/null 2>&1
-pip install youtube-dl -y  > /dev/null 2>&1
-pip install bs4 -y  > /dev/null 2>&1
-pip install --upgrade pip -y  > /dev/null 2>&1
+
 command -v python > /dev/null 2>&1 || { echo >&2 "Python not installed"; exit 1; }
 command -v wget > /dev/null 2>&1 || { echo >&2 "Wget not installed"; exit 1; }
 command -v ffmpeg > /dev/null 2>&1 || { echo >&2 "Python Not Installed"; exit 1; }
