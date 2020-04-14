@@ -2,5 +2,5 @@
 
 A.I named Jarvis made only for termux app.
 
-Installation and Usage - (Link given below)
+Installation and Usage - 
 https://youtu.be/IrUMigb8mvw
